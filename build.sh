@@ -22,4 +22,4 @@ docker build \
   --build-arg spark_version="${SPARK_VERSION}" \
   --build-arg jupyterlab_version="${JUPYTERLAB_VERSION}" \
   -f jupyterlab.Dockerfile \
-  -t jupyterlab .4
+  -t jupyterlab .
